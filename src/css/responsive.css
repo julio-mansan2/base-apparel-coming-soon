@@ -1,0 +1,97 @@
+@media (max-width: 500px) {
+    .img-desktop {
+        display: none;
+    }
+
+    .img-mobile {
+        display: block;
+        width: 100%;
+    }
+
+    .inscription {
+        padding: 0;
+    }
+
+    .logo {
+        padding: 10% 5%;
+        margin-bottom: 20px;
+    }
+
+    .info {
+        padding: 10%;
+        text-align: center;
+    }
+
+    .info h1 {
+        font-size: 2.5rem;
+    }
+
+    .info p {
+        font-size: 1rem;
+    }
+
+    .error-message {
+        text-align: left;
+    }
+
+    #email {
+        padding: 10px;
+        align-self: left;
+    }
+
+    #submit {
+        padding: 10px 25px;
+    }
+
+    .icon-error {
+        top: 20%;
+    }
+}
+
+@media (min-width: 500px) and (max-width: 1200px) {
+    .img-desktop {
+        display: none;
+    }
+
+    .img-mobile {
+        display: block;
+        width: 100%;
+    }
+
+    .inscription {
+        padding: 0;
+    }
+
+    .logo {
+        padding: 5% 5%;
+        margin-bottom: 20px;
+    }
+
+    .info {
+        padding: 5%;
+        text-align: center;
+    }
+
+    .info h1 {
+        font-size: 2.5rem;
+    }
+
+    .info p {
+        font-size: 1rem;
+    }
+
+    .error-message {
+        text-align: left;
+        margin-left: 50px;
+    }
+
+    #email {
+        width: 80%;        
+    }
+
+
+    .icon-error {
+        top: 25%;
+        left: 75%;
+    }
+}
