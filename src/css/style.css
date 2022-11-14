@@ -31,18 +31,18 @@ body {
 .inscription h1 {
     font-size: 3.5rem;
     text-transform: uppercase;
-    color: hsl(0, 6%, 24%);
+    color: var(--dark-grayish-red);
     font-weight: 400;
     margin-bottom: 25px;
 }
 
 .inscription h1 span {
-    color: hsl(0, 93%, 68%);
+    color: var(--soft-red);
     font-weight: 300;
 }
 
 .inscription p {
-    color: hsl(0, 36%, 70%);
+    color: var(--desaturated-red);
     font-size: 1.1rem;
     margin-bottom: 35px;
 }
@@ -74,7 +74,7 @@ form {
 
 .error-message {
     margin-left: 15px;
-    color: hsl(0, 93%, 68%);
+    color: var(--soft-red);
     display: none;
 }
 
@@ -94,5 +94,5 @@ form {
 }
 
 .borda-vermelha {
-    border-color: hsl(0, 93%, 68%);
+    border-color: var(--soft-red);
 }
