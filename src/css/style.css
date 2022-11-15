@@ -52,7 +52,7 @@ form {
 }
 
 #email {
-    width: 70%;
+    width: 100%;
     font-size: 0.9rem;
     padding: 20px;
     border-radius: 100px;
@@ -63,6 +63,8 @@ form {
     border: none;
     font-size: 1.1rem;
     border-radius: 100px;
+    position: absolute;
+    right: 0;
     background-image: linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%)), url(../images/icon-arrow.svg);
 }
 
@@ -79,10 +81,7 @@ form {
 }
 
 .icon-error {
-    position: absolute;
-    left: 60%;
-    top: 25%;
-    display: none;
+    background: url(../images/icon-error.svg) 80% no-repeat;
 }
 
 .aparecer {
@@ -90,9 +89,9 @@ form {
 }
 
 .borda-normal {
-    border-color: hsl(0, 100%, 98%);
+    border: 1px solid hsl(0, 80%, 86%);;
 }
 
 .borda-vermelha {
-    border-color: var(--soft-red);
+    border: 2px solid var(--soft-red);
 }
