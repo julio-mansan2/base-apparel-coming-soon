@@ -44,7 +44,7 @@
     }
 
     .icon-error {
-        top: 20%;
+        background: url(../images/icon-error.svg) 70% no-repeat;
     }
 }
 
@@ -86,12 +86,11 @@
     }
 
     #email {
-        width: 80%;        
+        width: 100%;        
     }
-
 
     .icon-error {
-        top: 25%;
-        left: 75%;
+        background: url(../images/icon-error.svg) 85% no-repeat;
     }
+
 }
