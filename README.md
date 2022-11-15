@@ -1,6 +1,6 @@
 # Desafio Coming Soon - Frontend-Mentor
 
-Este é um desafio de uma página de FAQ proposto pelo site Frontend-Mentor.
+Este é um desafio de uma página de Coming Soon proposto pelo site Frontend-Mentor.
 
 ## Tabela de Conteúdos
 
